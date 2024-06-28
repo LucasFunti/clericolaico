@@ -1,0 +1,163 @@
+interface Resources {
+    "ns1": {
+        "header.init.date": "16",
+        "header.end.date": "18 de Noviembre, 2024, br",
+        "header.location": "Buenos Aires, ARG",
+        "header.registration": "Registrate",
+        "hero.title": "Encuentro Clerico Laico",
+        "hero.subtitle.paragraph.1": "Cada dos años, la comunidad griega de Sudamérica se reúne en un evento clerico-laico único y significativo. Este encuentro congrega a griegos de diversos países de la región para reflexionar sobre su identidad y fortalecer los lazos comunitarios. Durante varios días, los participantes disfrutan de una agenda rica en actividades culturales, religiosas y festivas, que no solo celebran el patrimonio griego, sino que también promueven la convivencia y el diálogo entre generaciones.",
+        "hero.subtitle.paragraph.2": "Este año, el evento tendrá lugar en Buenos Aires, Argentina, en el mes de noviembre, y promete ser una experiencia inolvidable. Además de las reflexiones y festividades, se llevará a cabo una votación para determinar la sede del próximo encuentro, que se celebrará en São Paulo, Brasil. Este aspecto democrático del evento asegura que todos los miembros de la comunidad tengan voz en la planificación futura, fortaleciendo así la unidad y la participación activa de todos los griegos en Sudamérica.",
+        "hero.registration": "Registrate",
+        "hero.metrics.meets": "Charlas",
+        "hero.metrics.participants": "Participan",
+        "hero.metrics.place": "Sede",
+        "hero.metrics.location": "Ubicación",
+        "schedule.title": "",
+        "schedule.subtitle": "Nuestro programa de tres días está repleto de actividades, debates y fiestas.",
+        "schedule.subtitle.paragraph": "Las acreditaciones se realizarán en dos periodos distintos: Para aquellos que llegan el viernes tenemos la primer ventana de acreditaciones de 18:00hs a 21:00hs, en la Colectividad Helenica de Buenos Aires - Julián Alvarez. Y para aquellas personas que lleguen el mismo sabado, tendremos disponibles acreditaciones de 9:00hs a 10:00hs en el Instituto Griego Atenágoras I - Lerma 242, donde se hará la apertura, posteriormente.",
+    
+        "schedule.date.firstDay": "Sabado 16",
+        "schedule.date.firstDay.datetime": "2024-11-16",
+        "schedule.date.firstDay.summary": "Primer día del evento de manera oficial",
+    
+        "schedule.date.firstDay.timeSlots.0.name": "Acreditaciones, Apertura y Cocktail",
+        "schedule.date.firstDay.timeSlots.0.description": "Instituto Griego Atenagoras I - Lerma 242",
+        "schedule.date.firstDay.timeSlots.0.start": "9:00HS",
+        "schedule.date.firstDay.timeSlots.0.end": "14:00HS",
+    
+        "schedule.date.firstDay.timeSlots.1.name": "Mesas de debate",
+        "schedule.date.firstDay.timeSlots.1.description": "Instituto Griego Atenagoras I - Lerma 242",
+        "schedule.date.firstDay.timeSlots.1.start": "15:00HS",
+        "schedule.date.firstDay.timeSlots.1.end": "16:30HS",
+    
+        "schedule.date.firstDay.timeSlots.2.name": "Receso",
+        "schedule.date.firstDay.timeSlots.2.description": "",
+        "schedule.date.firstDay.timeSlots.2.start": "16:30HS",
+        "schedule.date.firstDay.timeSlots.2.end": "18:00HS",
+    
+        "schedule.date.firstDay.timeSlots.3.name": "Taller de danzas",
+        "schedule.date.firstDay.timeSlots.3.description": "Salon San Demetrio - Av. Scalabrini ortiz 1339",
+        "schedule.date.firstDay.timeSlots.3.start": "16:30HS",
+        "schedule.date.firstDay.timeSlots.3.end": "18:00HS",
+    
+        "schedule.date.firstDay.timeSlots.4.name": "Cena de jóvenes",
+        "schedule.date.firstDay.timeSlots.4.description": "Salon San Demetrio - Av. Scalabrini ortiz 1339",
+        "schedule.date.firstDay.timeSlots.4.start": "21:30HS",
+        "schedule.date.firstDay.timeSlots.4.end": "4:00HS",
+    
+        "schedule.date.secondDay": "Domingo 17",
+        "schedule.date.secondDay.datetime": "2022-11-17",
+        "schedule.date.secondDay.summary": "Día de religión, danza, y música",
+    
+        "schedule.date.secondDay.timeSlots.0.name": "Divina liturgia",
+        "schedule.date.secondDay.timeSlots.0.description": "Catedral la dormición de la Thotokos - Julián Alvarez 1030",
+        "schedule.date.secondDay.timeSlots.0.start": "10:00HS",
+        "schedule.date.secondDay.timeSlots.0.end": "13:00HS",
+    
+        "schedule.date.secondDay.timeSlots.1.name": "Almuerzo y Paniguiri",
+        "schedule.date.secondDay.timeSlots.1.description": "Instituto Griego Atenágoras I - Lerma 242",
+        "schedule.date.secondDay.timeSlots.1.start": "13:00HS",
+        "schedule.date.secondDay.timeSlots.1.end": "18:00HS",
+    
+        "schedule.date.secondDay.timeSlots.2.name": "Cena de gala",
+        "schedule.date.secondDay.timeSlots.2.description": "Golden Center - INT. CANTILO Y INT. GUIRALDES",
+        "schedule.date.secondDay.timeSlots.2.start": "21:30HS",
+        "schedule.date.secondDay.timeSlots.2.end": "5:00HS",
+    
+        "schedule.date.thirdDay": "Lunes 18",
+        "schedule.date.thirdDay.datetime": "2022-04-06",
+        "schedule.date.thirdDay.summary": "Día de cierre y reflexiones finales.",
+    
+        "schedule.date.thirdDay.timeSlots.0.name": "Cierre Oficial",
+        "schedule.date.thirdDay.timeSlots.0.description": "Instituto Griego Atenágoras I - Lerma 242",
+        "schedule.date.thirdDay.timeSlots.0.start": "12:00HS",
+        "schedule.date.thirdDay.timeSlots.0.end": "14:00HS",
+    
+        "schedule.date.thirdDay.timeSlots.1.name": "Cocktail de despedida",
+        "schedule.date.thirdDay.timeSlots.1.description": "Instituto Griego Atenágoras I - Lerma 242",
+        "schedule.date.thirdDay.timeSlots.1.start": "14:00HS",
+        "schedule.date.thirdDay.timeSlots.1.end": "15:00HS",
+
+        "speakers.title": "Mesas de debate",
+        "speakers.description": "Esta es una de las estaciones fundamentales del programa que se impone como una necesidad, a fin de que los participantes y las instituciones puedan enriquecerse a través de la libre participación –de acuerdo a sus propios intereses- en mesas de debate que versarán sobre las dos áreas de reflexión y acción que nos convocan –Iglesia y Comunidad. Las temáticas de estas mesas de debate están basadas en las discusiones de las plenarias realizadas en el reencuentro clérico-laico de Montevideo. De esta forma se garantiza la continuación, el monitoreo y el seguimiento de la evolución de la reflexión y, sobre todo, de la ejecución de las propuestas planteadas",
+
+        "tables.helenic.name": "Dirigencia Helénica",
+        "tables.helenic.nickname": "Dirigencia",
+        "tables.helenic.datetime": "2022-04-04",
+        "tables.helenic.speakers.items.0.title": "Problemáticas Actuales",
+        "tables.helenic.speakers.items.0.text": "Financiamiento y sostenibilidad, Participación y relevancia en la comunidad, Incorporación de nuevas generaciones.",
+        "tables.helenic.speakers.items.1.title": "Continuidad del Helenismo y de la Ortodoxía",
+        "tables.helenic.speakers.items.1.text": "Importancia de mantener vivas las costumbres y la cultura helena. Importancia de la cooperación con la Iglesia en estrategias comunes para mantener fe y cultura. Rol de las instituciones como guardianes de la identidad helénica y de su espiritualidad. Estrategias para fortalecer la presencia griega en Latinoamérica.",
+        "tables.helenic.speakers.items.2.title": "Mantener el idioma griego vivo y la Ortodoxía vivos",
+        "tables.helenic.speakers.items.2.text": "Programas de enseñanza del idioma. Desafíos y oportunidades. Impacto en la preservación de la fe y de la cultura. Por qué mantener la fe viva es garantía de continuación del Helenismo en Sudamérica.",
+        "tables.helenic.speakers.items.3.title": "Ser embajadores de Grecia y de la Ortodoxía",
+        "tables.helenic.speakers.items.3.text": "Responsabilidades de las instituciones helénicas en la promoción de los valores culturales y espirituales. Promoción de la cultura griega. Mantención de la fe. Colaboración con entidades griegas.",
+        "tables.helenic.speakers.items.4.title": "Conclusiones y Recomendaciones",
+        "tables.helenic.speakers.items.4.text": "Síntesis de los puntos clave. Propuestas concretas para el fortalecimiento de las instituciones y la continuidad del Helenismo y la Ortodoxía desde la óptica de la dirigencia helénica sudamericana.",
+
+        "tables.culture.name": "Promoción de la Cultura",
+        "tables.culture.nickname": "Cultura",
+        "tables.culture.datetime": "2022-04-05",
+        "tables.culture.speakers.items.0.title": "Desafíos en la enseñanza del idioma griego",
+        "tables.culture.speakers.items.0.text": "Disponibilidad de programas y recursos. Formación de docentes. Integración en el sistema educativo oficial. Reflexión y aportes sobre el sistema actual de envío de docentes desde Grecia.",
+        "tables.culture.speakers.items.1.title": "Colegios Oficiales e Idiomáticos",
+        "tables.culture.speakers.items.1.text": "Diferencias y beneficios. Rol en la promoción de la cultura griega. Experiencias exitosas y lecciones aprendidas.",
+        "tables.culture.speakers.items.2.title": "Currícula educativa",
+        "tables.culture.speakers.items.2.text": "Contenido y enfoques.  Adaptación a las necesidades de las nuevas generaciones. Incorporación de tecnología y recursos digitales.",
+        "tables.culture.speakers.items.3.title": "Conclusiones y Recomendaciones",
+        "tables.culture.speakers.items.3.text": "Identificación de áreas de mejora. Propuestas para fortalecer la enseñanza y promoción de la cultura griega en Latinoamérica. • Propuestas para mejorar el actual sistema de envío de profesores desde Grecia.",
+
+        "tables.youth.name": "Juventud",
+        "tables.youth.nickname": "Juventud",
+        "tables.youth.datetime": "2022-04-06",
+        "tables.youth.speakers.items.0.title": "Futuros dirigentes",
+        "tables.youth.speakers.items.0.text": "Compromiso con la religión, cultura, idioma y costumbres. Desafíos y oportunidades. Formación y capacitación para el liderazgo.",
+        "tables.youth.speakers.items.1.title": "Actividades e intercambio con Grecia",
+        "tables.youth.speakers.items.1.text": "Experiencias de intercambio cultural. Beneficios para el desarrollo personal y comunitario. Fomentar la conexión con la tierra de origen.",
+        "tables.youth.speakers.items.2.title": "Promoción de la participación juvenil",
+        "tables.youth.speakers.items.2.text": "Estrategias para involucrar a más jóvenes. Creación de espacios y actividades atractivas. Reconocimiento del papel de la juventud en las instituciones helénicas.",
+        "tables.youth.speakers.items.3.title": "¿Cómo la Iglesia recibe a los jóvenes en su seno?",
+        "tables.youth.speakers.items.3.text": "Estrategias para involucrar más a la juventud en las actividades de la iglesia. Catequesis para jóvenes",
+        "tables.youth.speakers.items.4.title": "Conclusiones y Recomendaciones",
+        "tables.youth.speakers.items.4.text": "Reflexión sobre el compromiso actual de la juventud. Propuestas para fortalecer la participación y liderazgo juvenil en las comunidades helénicas y en la Iglesia.",
+
+        "tables.orthodoxy.name": "Ortodoxia",
+        "tables.orthodoxy.nickname": "Iglesia",
+        "tables.orthodoxy.datetime": "2022-04-06",
+        "tables.orthodoxy.speakers.items.0.title": "Hipostasis",
+        "tables.orthodoxy.speakers.items.0.text": "Por qué es necesaria la presencia de la Iglesia Ortodoxa en Sudamérica. El rol de la Iglesia Ortodoxa en las sociedades modernas y cómo puede marcar tendencia. ¿Una Ortodoxía Sudamericana?",
+        "tables.orthodoxy.speakers.items.1.title": "Misión",
+        "tables.orthodoxy.speakers.items.1.text": "Misión y Evangelización. Catequesis. Formación de nuevos candidatos locales al sacerdocio. Vida litúrgica. Promoción de estrategias espirituales a fin de apaciguar la crisis espiritual del hombre moderno sudamericano. Proyección de dinámicas espirituales para mantener valores de vida coherentes con la fe. Concientización de la necesidad de que la Iglesia Ortodoxa sea medio para contribuir a paliar la pobreza orgánica en nuestros países",
+        "tables.orthodoxy.speakers.items.2.title": "Dificultades",
+        "tables.orthodoxy.speakers.items.2.text": "Financiación y mayordomía. Crisis vocacionales. Agnosticismo e indiferencia espiritual. Falta de coordinación y cooperación entre las diferentes jurisdicciones ortodoxas en Sudamérica. Falta de testimonio común.",
+        "tables.orthodoxy.speakers.items.3.title": "Desafíos",
+        "tables.orthodoxy.speakers.items.3.text": "Inclusividad y fidelidad al Evangelio y la Tradición: el amalgama lícito y correcto. La juventud como objetivo pastoral y misionero de la Iglesia: estrategias y dificultades en la misión. Trascender el “gueto religioso” y abrir la Iglesia a todos los pueblos. Accesibilidad litúrgica: proyecto de traducciones litúrgicas. Reconocimiento legal de la Arquidiócesis en los países de su jurisdicción. Reconocimiento de días festivos en los diversos países de la jurisdicción sudamericana.",
+        "tables.orthodoxy.speakers.items.4.title": "Conclusiones y Recomendaciones",
+        "tables.orthodoxy.speakers.items.4.text": "Síntesis de los puntos clave. Propuestas concretas para el fortalecimiento de la institución arquidiocesana a todo nivel a fin de garantizar la continuidad del Helenismo y la Ortodoxía.",
+
+        "sponsorship.title": "Current sponsorships for our workshops and speakers.",
+
+        "pricing.title": "Aranceles",
+        "pricing.subtitle": "Seleccione su pais para poder ver donde realizar su pago",
+      
+        "pricing.adult.title": "Arancel Adultos (+31 años)",
+        "pricing.youth.title": "Arancel Jóvenes (-30 años)",
+        "pricing.adult.whats.inlcuded": "Que incluye?",
+        "pricing.adult.price.pre.text": "Precio final",
+        "pricing.adult.price.total": "100",
+        "pricing.adult.price.currency": "USD",
+        
+        "pricing.item.cocktail": "Cocktail de apertura",
+        "pricing.item.debate.table": "Mesas de debate",
+        "pricing.item.greek.dance": "Taller de danzas",
+        "pricing.item.paniguiri": "Almuerzo y Paniguiri",
+        "pricing.item.youth.dinner": "Cena de jóvenes",
+        "pricing.item.gala.dinner": "Cena de gala",
+        "pricing.item.last.cocktail": "Cocktail de cierre"
+    }
+
+    },
+}
+
+export type i18nType = keyof Resources['ns1'];
+export default Resources;
