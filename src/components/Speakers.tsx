@@ -54,7 +54,7 @@ const TABLES: TablesType[] = [
   },
   {
     name: 'tables.culture.name',
-    date: 'tables.culture.nickname',
+    nickname: 'tables.culture.nickname',
     dateTime: 'tables.culture.datetime',
     speakers: [
       {
@@ -81,8 +81,8 @@ const TABLES: TablesType[] = [
   },
   {
     name: 'tables.youth.name',
-    date: 'tables.youth.nickname',
-    dateTime: '2022-04-06',
+    nickname: 'tables.youth.nickname',
+    dateTime: 'tables.youth.datetime',
     speakers: [
       {
         items: [
@@ -112,8 +112,8 @@ const TABLES: TablesType[] = [
   },
   {
     name: 'tables.orthodoxy.name',
-    date: 'tables.orthodoxy.nickname',
-    dateTime: '2022-04-06',
+    nickname: 'tables.orthodoxy.nickname',
+    dateTime: 'tables.orthodoxy.datetime',
     speakers: [
       {
         items: [
