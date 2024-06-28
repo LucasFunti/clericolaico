@@ -155,8 +155,6 @@ interface Resources {
         "pricing.item.gala.dinner": "Cena de gala",
         "pricing.item.last.cocktail": "Cocktail de cierre"
     }
-
-    },
 }
 
 export type i18nType = keyof Resources['ns1'];
