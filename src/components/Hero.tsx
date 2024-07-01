@@ -18,8 +18,8 @@ export function Hero() {
   const heroMetricsPlace = t("hero.metrics.place");
   const heroMetricsLocation = t("hero.metrics.location");
   const METRICS = [
-    [heroMetricsMeets, '5'],
-    [heroMetricsParticipants, '1,200'],
+    [heroMetricsMeets, '4'],
+    [heroMetricsParticipants, '600'],
     [heroMetricsPlace, 'Colectividad Helenica'],
     [heroMetricsLocation, 'Buenos Aires']
   ]
