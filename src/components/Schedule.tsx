@@ -143,12 +143,6 @@ function ScheduleTabbed() {
                 <DaySummary
                   day={{
                     ...day,
-                    date: (
-                      <Tab className="ui-not-focus-visible:outline-none">
-                        <span className="absolute inset-0" />
-                        {t(day.date as i18nType)}
-                      </Tab>
-                    ),
                   }}
                 />
               </div>
@@ -175,7 +169,7 @@ function DaySummary({ day }: { day: Day }) {
   return (
     <>
       <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
-        <time dateTime={day.dateTime}>{t(day.date as i18nType)}</time>
+        <p>{t(day.date as i18nType)}</p>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
         {t(day.summary)}

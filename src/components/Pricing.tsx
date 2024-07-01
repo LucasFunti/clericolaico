@@ -1,19 +1,19 @@
 "use client";
 import { i18nType } from '@/@types/resources';
 import { t } from 'i18next';
-import { useState } from 'react'
-import { Label, Listbox, ListboxButton, ListboxOption, ListboxOptions, Transition } from '@headlessui/react'
-import { CheckIcon, ChevronUpDownIcon } from '@heroicons/react/20/solid'
+import { Fragment, useState } from 'react'
+import { CheckIcon } from '@heroicons/react/20/solid'
 import "/node_modules/flag-icons/css/flag-icons.min.css";
+import CountrySelector, { CountryType } from './CountrySelector';
 
-const includedFeaturesAdults: Array<i18nType> = [
+export const includedFeaturesAdults: Array<i18nType> = [
   'pricing.item.cocktail',
   'pricing.item.debate.table',
   'pricing.item.paniguiri',
   'pricing.item.gala.dinner',
   'pricing.item.last.cocktail',
 ]
-const includedFeaturesYouth: Array<i18nType> = [
+export const includedFeaturesYouth: Array<i18nType> = [
   'pricing.item.cocktail',
   'pricing.item.debate.table',
   'pricing.item.paniguiri',
@@ -45,7 +45,53 @@ export function Pricing() {
         },
     ]
     const [selected, setSelected] = useState<CountryType>({ id: 1, name: 'Argentina', avatar: 'fi-ar', });
-
+    const BANK_OPTIONS: Record<string, Array<Record<string,string>>> = {
+      'Argentina': [
+        {
+          'Banco': "Banco Galicia",
+          'Cuenta': "000904120251",
+          'CUIT': "30-52859827-3",
+          'CBU': "0070025220000009041217",
+          'Alias': "Colectividad.Hele",
+          'Razón Social': "Asociación La Colectividad Helénica",
+          'Moneda': "ARG"
+        },
+        {
+          'Banco': "Banco Galicia",
+          'Cuenta': "975009120259",
+          'CUIT': "30-52859827-3",
+          'CBU': "0070025231009750091290",
+          'Alias': "Colectividad.Hele",
+          'Razón Social': "Asociación La Colectividad Helénica",
+          'Moneda': "USD"
+        }
+      ],
+      'Uruguay': [
+        {
+          'Banco': "Banco Santander",
+          'Cuenta': "4069838",
+          'Sucursal': "61 - Ciudad Vieja",
+          'Cuenta otros bancos': "0061000004069838",
+          'Moneda': "UYU"
+        },
+        {
+          'Banco': "Banco Santander",
+          'Cuenta': "4069838",
+          'Sucursal': "61 - Ciudad Vieja",
+          'Cuenta otros bancos': "0061000004069838",
+          'Moneda': "USD"
+        }
+      ],
+      other: [
+        {
+          'Banco': "Banco Bradesco",
+          'Agencia': "0054-BRAS-URB-SP",
+          'Conta': "0016049/0",
+          'CGC/CPF': '046792657/0001-30',
+          'Correntista': 'Arquidiocese O.E.T.B-.P.E.',
+        }
+      ]
+    }
     return (
         <div className="bg-white py-24 sm:py-32">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -64,9 +110,23 @@ export function Pricing() {
                             <h3 className="text-lg font-semibold tracking-tight text-blue-900">
                                 {cardTitle}
                             </h3>
-                            <p className="mt-1 tracking-tight text-blue-900">
-                                {cardData}
-                            </p>
+                            {(BANK_OPTIONS[selected.name] ?? BANK_OPTIONS['other']).map((hash, index)=> {
+                                const entries = Object.entries(hash);
+                                return <Fragment key={`${hash}_${index}`}>
+                                  {
+                                    entries.map(([key, value], index) => 
+                                      (
+                                        <Fragment key={`${key}_${value}_${index}`}>
+                                          <p className="mt-1 tracking-tight text-blue-900">
+                                            {key}: {value}
+                                          </p>
+                                        </Fragment>
+                                      )
+                                    )
+                                  }
+                                  ----------
+                                </Fragment>
+                            })}
                             <div className="mt-10 flex items-center gap-x-4">
                                 <h4 className="flex-none text-sm font-semibold leading-6 mt-1 tracking-tight text-blue-900">
                                     {cardWhatsIncluded}
@@ -104,95 +164,3 @@ export function Pricing() {
 }
 
 
-export type CountryType = {
-    id: number,
-    name: string,
-    avatar: string
-}
-export type PropCountrySelector = {
-    country: CountryType,
-    setSelected: React.Dispatch<React.SetStateAction<CountryType>>,
-}
-export default function CountrySelector({country, setSelected}: PropCountrySelector) {
-    const countries: CountryType[] = [
-        { id: 1, name: 'Argentina', avatar: 'fi-ar', },
-        { id: 2, name: 'Brasil', avatar: 'fi-br', }, 
-        { id: 3, name: 'Bolivia', avatar: 'fi-bo', },
-        { id: 4, name: 'Chile', avatar: 'fi-cl', },
-        { id: 5, name: 'Ecuador', avatar: 'fi-ec', },
-        { id: 6, name: 'Paraguay', avatar: 'fi-py', },
-        { id: 7, name: 'Perú', avatar: 'fi-pu', },
-        { id: 7, name: 'Venezuela', avatar: 'fi-ve', },
-        { id: 8, name: 'Uruguay', avatar:'fi-uy', },
-    ]
-  
-  function classNames(...classes: string[]) {
-    return classes.filter(Boolean).join(' ')
-  }
-  return (
-    <Listbox value={country} onChange={setSelected}>
-      {({ open }) => (
-        <>
-          <div className="relative mt-2">
-            <ListboxButton className="relative w-full cursor-default rounded-md bg-white py-1.5 pl-3 pr-10 text-left text-blue-900 shadow-sm ring-1 ring-inset ring-blue-300 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:text-sm sm:leading-6">
-              <span className="flex items-center">
-              <span className={`fi ${country.avatar} h-5 w-5 flex-shrink-0 rounded-full`} ></span>
-              <span className="ml-3 block truncate">{country.name}</span>
-                 
-
-              </span>
-              <span className="pointer-events-none absolute inset-y-0 right-0 ml-3 flex items-center pr-2">
-                <ChevronUpDownIcon className="h-5 w-5 text-blue-400" aria-hidden="true" />
-              </span>
-            </ListboxButton>
-
-            <Transition show={open} leave="transition ease-in duration-100" leaveFrom="opacity-100" leaveTo="opacity-0">
-              <ListboxOptions className="absolute z-10 mt-1 max-h-56 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm">
-                {countries.map((person) => (
-                  <ListboxOption
-                    key={person.id}
-                    className={({ focus }) =>
-                      classNames(
-                        focus ? 'bg-blue-600 text-white' : '',
-                        !focus ? 'text-blue-900' : '',
-                        'relative cursor-default select-none py-2 pl-3 pr-9',
-                      )
-                    }
-                    value={person}
-                  >
-                    {({ selected, focus }) => (
-                      <>
-                        <div className="flex items-center">
-                          <span className={`fi ${person.avatar} h-5 w-5 flex-shrink-0 rounded-full`} ></span>
-                          <span
-                            className={classNames(selected ? 'font-semibold' : 'font-normal', 'ml-3 block truncate')}
-                          >
-                            {person.name}
-                          </span>
-                        </div>
-
-                        {selected ? (
-                          <span
-                            className={classNames(
-                              focus ? 'text-white' : 'text-blue-600',
-                              'absolute inset-y-0 right-0 flex items-center pr-4',
-                            )}
-                          >
-                            <CheckIcon className="h-5 w-5" aria-hidden="true" />
-                          </span>
-                        ) : null}
-                      </>
-                    )}
-                  </ListboxOption>
-                ))}
-              </ListboxOptions>
-            </Transition>
-          </div>
-        </>
-      )}
-    </Listbox>
-  )
-}
-
-  
-  

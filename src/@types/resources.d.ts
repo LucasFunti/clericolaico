@@ -153,7 +153,12 @@ interface Resources {
         "pricing.item.paniguiri": "Almuerzo y Paniguiri",
         "pricing.item.youth.dinner": "Cena de jóvenes",
         "pricing.item.gala.dinner": "Cena de gala",
-        "pricing.item.last.cocktail": "Cocktail de cierre"
+        "pricing.item.last.cocktail": "Cocktail de cierre",
+
+        "modal.pre.registration.title": "Registrate",
+        "modal.pre.registration.body": "Selecciona tu pais, para redirigirte al formulario de inscripción correspondiente",
+        "modal.pre.registration.button": "Ir",
+
     }
 }
 

@@ -1,12 +1,12 @@
 {
     "header.init.date": "16",
-    "header.end.date": "18 de Noviembre, 2024, es",
+    "header.end.date": "18 de Noviembre, 2024",
     "header.location": "Buenos Aires, ARG",
     "header.registration": "Registrate",
     
     "hero.title": "Encuentro Clerico Laico",
     "hero.subtitle.paragraph.1": "Cada dos años, la comunidad griega de Sudamérica se reúne en un evento clerico-laico único y significativo. Este encuentro congrega a griegos de diversos países de la región para reflexionar sobre su identidad y fortalecer los lazos comunitarios. Durante varios días, los participantes disfrutan de una agenda rica en actividades culturales, religiosas y festivas, que no solo celebran el patrimonio griego, sino que también promueven la convivencia y el diálogo entre generaciones.",
-    "hero.subtitle.paragraph.2": "Este año, el evento tendrá lugar en Buenos Aires, Argentina, en el mes de noviembre, y promete ser una experiencia inolvidable. Además de las reflexiones y festividades, se llevará a cabo una votación para determinar la sede del próximo encuentro, que se celebrará en São Paulo, Brasil. Este aspecto democrático del evento asegura que todos los miembros de la comunidad tengan voz en la planificación futura, fortaleciendo así la unidad y la participación activa de todos los griegos en Sudamérica.",
+    "hero.subtitle.paragraph.2": "Este año, el evento tendrá lugar en Buenos Aires, Argentina, en el mes de noviembre, y promete ser una experiencia inolvidable. Dando paso al próximo encuentro que se realizará en Sao Paolo",
     "hero.registration": "Registrate",
     "hero.metrics.meets": "Charlas",
     "hero.metrics.participants": "Participan",
@@ -152,5 +152,10 @@
     "pricing.item.paniguiri": "Almuerzo y Paniguiri",
     "pricing.item.youth.dinner": "Cena de jóvenes",
     "pricing.item.gala.dinner": "Cena de gala",
-    "pricing.item.last.cocktail": "Cocktail de cierre"
+    "pricing.item.last.cocktail": "Cocktail de cierre",
+
+
+    "modal.pre.registration.title": "Registrate",
+    "modal.pre.registration.button": "Ir a formulario",
+    "modal.pre.registration.body": "Selecciona tu pais, para redirigirte al formulario de inscripción correspondiente"
 }

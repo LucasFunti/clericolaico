@@ -26,7 +26,7 @@ i18n
       }
     },
     defaultNS: defaultNS,
-    lng: "en",
+    lng: "es",
     interpolation: {
       escapeValue: false // react already safes from xss
     }

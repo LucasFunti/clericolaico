@@ -2,9 +2,12 @@
 import { BackgroundImage } from '@/components/BackgroundImage'
 import { Button } from '@/components/Button'
 import { Container } from '@/components/Container'
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import ModalPreRegister from './ModalPreRegister';
 
 export function Hero() {
+  const [open, setOpen] = useState(false);
   const { t } = useTranslation("ns1")
   const heroTitle = t("hero.title");
   const heroSubTitle1 = t("hero.subtitle.paragraph.1");
@@ -36,9 +39,8 @@ export function Hero() {
               {heroSubTitle2}
             </p>
           </div>
-          <Button href="https://forms.gle/fyuZRRMdEu3FgPBH9" className="mt-10 w-full sm:hidden">
-            {heroRegistration}
-          </Button>
+          <Button className="mt-10 w-full sm:hidden" onClick={handleRegister}>{heroRegistration}</Button>
+          <ModalPreRegister open={open} setOpen={setOpen} />
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {METRICS.map(([name, value]) => (
               <div key={name}>
@@ -53,4 +55,8 @@ export function Hero() {
       </Container>
     </div>
   )
+
+  function handleRegister() {
+    setOpen(true)
+  }
 }
