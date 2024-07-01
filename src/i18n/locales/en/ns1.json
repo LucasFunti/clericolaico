@@ -31,15 +31,15 @@
   "schedule.date.firstDay.timeSlots.1.start": "3:00 PM",
   "schedule.date.firstDay.timeSlots.1.end": "4:30 PM",
 
-  "schedule.date.firstDay.timeSlots.2.name": "Break",
-  "schedule.date.firstDay.timeSlots.2.description": "",
+  "schedule.date.firstDay.timeSlots.2.name": "Dance Workshop",
+  "schedule.date.firstDay.timeSlots.2.description": "San Demetrio Hall - Av. Scalabrini Ortiz 1339",
   "schedule.date.firstDay.timeSlots.2.start": "4:30 PM",
   "schedule.date.firstDay.timeSlots.2.end": "6:00 PM",
 
-  "schedule.date.firstDay.timeSlots.3.name": "Dance Workshop",
-  "schedule.date.firstDay.timeSlots.3.description": "San Demetrio Hall - Av. Scalabrini Ortiz 1339",
-  "schedule.date.firstDay.timeSlots.3.start": "4:30 PM",
-  "schedule.date.firstDay.timeSlots.3.end": "6:00 PM",
+  "schedule.date.firstDay.timeSlots.3.name": "Plenary",
+  "schedule.date.firstDay.timeSlots.3.description": "",
+  "schedule.date.firstDay.timeSlots.3.start": "6:00 PM",
+  "schedule.date.firstDay.timeSlots.3.end": "7:00 PM",
 
   "schedule.date.firstDay.timeSlots.4.name": "Youth Dinner",
   "schedule.date.firstDay.timeSlots.4.description": "San Demetrio Hall - Av. Scalabrini Ortiz 1339",

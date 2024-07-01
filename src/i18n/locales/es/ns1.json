@@ -22,27 +22,27 @@
     "schedule.date.firstDay.summary": "Primer día del evento de manera oficial",
 
     "schedule.date.firstDay.timeSlots.0.name": "Acreditaciones, Apertura y Cocktail",
-    "schedule.date.firstDay.timeSlots.0.description": "Instituto Griego Atenagoras I - Lerma 242",
+    "schedule.date.firstDay.timeSlots.0.description": "Instituto Griego Atenágoras I - Lerma 242",
     "schedule.date.firstDay.timeSlots.0.start": "9:00HS",
     "schedule.date.firstDay.timeSlots.0.end": "14:00HS",
 
     "schedule.date.firstDay.timeSlots.1.name": "Mesas de debate",
-    "schedule.date.firstDay.timeSlots.1.description": "Instituto Griego Atenagoras I - Lerma 242",
+    "schedule.date.firstDay.timeSlots.1.description": "Instituto Griego Atenágoras I - Lerma 242",
     "schedule.date.firstDay.timeSlots.1.start": "15:00HS",
     "schedule.date.firstDay.timeSlots.1.end": "16:30HS",
 
-    "schedule.date.firstDay.timeSlots.2.name": "Receso",
-    "schedule.date.firstDay.timeSlots.2.description": "",
+    "schedule.date.firstDay.timeSlots.2.name": "Taller de danzas",
+    "schedule.date.firstDay.timeSlots.2.description": "Salón San Demetrio - Av. Scalabrini ortiz 1339",
     "schedule.date.firstDay.timeSlots.2.start": "16:30HS",
     "schedule.date.firstDay.timeSlots.2.end": "18:00HS",
 
-    "schedule.date.firstDay.timeSlots.3.name": "Taller de danzas",
-    "schedule.date.firstDay.timeSlots.3.description": "Salon San Demetrio - Av. Scalabrini ortiz 1339",
-    "schedule.date.firstDay.timeSlots.3.start": "16:30HS",
-    "schedule.date.firstDay.timeSlots.3.end": "18:00HS",
+    "schedule.date.firstDay.timeSlots.3.name": "Plenaria",
+    "schedule.date.firstDay.timeSlots.3.description": "Instituto Griego Atenágoras I - Lerma 242",
+    "schedule.date.firstDay.timeSlots.3.start": "18:00HS",
+    "schedule.date.firstDay.timeSlots.3.end": "19:30HS",
 
     "schedule.date.firstDay.timeSlots.4.name": "Cena de jóvenes",
-    "schedule.date.firstDay.timeSlots.4.description": "Salon San Demetrio - Av. Scalabrini ortiz 1339",
+    "schedule.date.firstDay.timeSlots.4.description": "Salón San Demetrio - Av. Scalabrini ortiz 1339",
     "schedule.date.firstDay.timeSlots.4.start": "21:30HS",
     "schedule.date.firstDay.timeSlots.4.end": "4:00HS",
 

@@ -31,15 +31,15 @@
     "schedule.date.firstDay.timeSlots.1.start": "15:00",
     "schedule.date.firstDay.timeSlots.1.end": "16:30",
 
-    "schedule.date.firstDay.timeSlots.2.name": "Διάλειμμα",
-    "schedule.date.firstDay.timeSlots.2.description": "",
+    "schedule.date.firstDay.timeSlots.2.name": "Εργαστήριο χορού",
+    "schedule.date.firstDay.timeSlots.2.description": "Σαλόνι του Αγίου Δημητρίου - Av. Scalabrini Ortiz 1339",
     "schedule.date.firstDay.timeSlots.2.start": "16:30",
     "schedule.date.firstDay.timeSlots.2.end": "18:00",
 
-    "schedule.date.firstDay.timeSlots.3.name": "Εργαστήριο χορού",
-    "schedule.date.firstDay.timeSlots.3.description": "Σαλόνι του Αγίου Δημητρίου - Av. Scalabrini Ortiz 1339",
-    "schedule.date.firstDay.timeSlots.3.start": "16:30",
-    "schedule.date.firstDay.timeSlots.3.end": "18:00",
+    "schedule.date.firstDay.timeSlots.3.name": "Πλήρης Συνεδρίαση",
+    "schedule.date.firstDay.timeSlots.3.description": "",
+    "schedule.date.firstDay.timeSlots.3.start": "18:00",
+    "schedule.date.firstDay.timeSlots.3.end": "19:30",
 
     "schedule.date.firstDay.timeSlots.4.name": "Δείπνο νέων",
     "schedule.date.firstDay.timeSlots.4.description": "Σαλόνι του Αγίου Δημητρίου - Av. Scalabrini Ortiz 1339",

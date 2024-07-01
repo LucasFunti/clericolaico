@@ -31,15 +31,15 @@
     "schedule.date.firstDay.timeSlots.1.start": "15:00",
     "schedule.date.firstDay.timeSlots.1.end": "16:30",
 
-    "schedule.date.firstDay.timeSlots.2.name": "Intervalo",
-    "schedule.date.firstDay.timeSlots.2.description": "",
+    "schedule.date.firstDay.timeSlots.2.name": "Oficina de Dança",
+    "schedule.date.firstDay.timeSlots.2.description": "Salão São Demétrio - Av. Scalabrini Ortiz 1339",
     "schedule.date.firstDay.timeSlots.2.start": "16:30",
     "schedule.date.firstDay.timeSlots.2.end": "18:00",
 
-    "schedule.date.firstDay.timeSlots.3.name": "Oficina de Dança",
-    "schedule.date.firstDay.timeSlots.3.description": "Salão São Demétrio - Av. Scalabrini Ortiz 1339",
-    "schedule.date.firstDay.timeSlots.3.start": "16:30",
-    "schedule.date.firstDay.timeSlots.3.end": "18:00",
+    "schedule.date.firstDay.timeSlots.3.name": "Reunião Plenária",
+    "schedule.date.firstDay.timeSlots.3.description": "",
+    "schedule.date.firstDay.timeSlots.3.start": "18:00",
+    "schedule.date.firstDay.timeSlots.3.end": "19:30",
 
     "schedule.date.firstDay.timeSlots.4.name": "Jantar da Juventude",
     "schedule.date.firstDay.timeSlots.4.description": "Salão São Demétrio - Av. Scalabrini Ortiz 1339",

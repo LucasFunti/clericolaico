@@ -1,6 +1,6 @@
 'use client';
 
-import { useEffect, useState } from 'react'
+import { isValidElement, useEffect, useState } from 'react'
 import { Tab, TabGroup, TabList, TabPanel, TabPanels } from '@headlessui/react'
 import clsx from 'clsx'
 
@@ -143,6 +143,12 @@ function ScheduleTabbed() {
                 <DaySummary
                   day={{
                     ...day,
+                    date: (
+                      <Tab className="ui-not-focus-visible:outline-none">
+                        <span className="absolute inset-0" />
+                        {t(day.date as i18nType)}
+                      </Tab>
+                    ),
                   }}
                 />
               </div>
@@ -166,10 +172,11 @@ function ScheduleTabbed() {
 
 function DaySummary({ day }: { day: Day }) {
   const {t} = useTranslation();
+
   return (
     <>
       <h3 className="text-2xl font-semibold tracking-tight text-blue-900">
-        <p>{t(day.date as i18nType)}</p>
+        <time dateTime={day.dateTime}>{isValidElement(day.date) ? day.date : t(day.date as i18nType)}</time>
       </h3>
       <p className="mt-1.5 text-base tracking-tight text-blue-900">
         {t(day.summary)}
