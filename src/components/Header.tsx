@@ -47,7 +47,7 @@ export function Header() {
         </div>
         <div className="hidden sm:mt-10 sm:flex lg:mt-0 lg:grow lg:basis-0 lg:justify-end">
           <LanguageDropDown />
-          <Button onClick={handleRegister}>{headerRegistration}</Button>
+          {/* <Button onClick={handleRegister}>{headerRegistration}</Button> */}
         </div>
       </Container>
       <ModalPreRegister open={open} setOpen={setOpen} />

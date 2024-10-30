@@ -39,7 +39,7 @@ export function Hero() {
               {heroSubTitle2}
             </p>
           </div>
-          <Button className="mt-10 w-full sm:hidden" onClick={handleRegister}>{heroRegistration}</Button>
+          {/* <Button className="mt-10 w-full sm:hidden" onClick={handleRegister}>{heroRegistration}</Button> */}
           <ModalPreRegister open={open} setOpen={setOpen} />
           <dl className="mt-10 grid grid-cols-2 gap-x-10 gap-y-6 sm:mt-16 sm:gap-x-16 sm:gap-y-10 sm:text-center lg:auto-cols-auto lg:grid-flow-col lg:grid-cols-none lg:justify-start lg:text-left">
             {METRICS.map(([name, value]) => (
